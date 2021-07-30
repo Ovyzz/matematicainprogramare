@@ -1,0 +1,118 @@
+.list {
+    
+    list-style-type: none; 
+   border: groove white;
+   background-color: rgb(3, 3, 3);
+   opacity: 65%;
+    width: 210px;
+    height: 670px;
+    font-size: 30px;
+    margin-top:40px;
+    text-align: center;
+    
+}
+a {
+    
+    
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration-line: none;
+  
+}
+a:hover{
+    color:red;
+    
+    
+}
+.titlu1{
+    text-align: center;
+    color: white;
+}
+.titlu{
+    background: tomato;
+    color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.x{
+    width: 400px;
+    height: 500px;
+    background-color: tomato;
+    
+    margin-top: 110px;
+    margin-left: 460px;
+   
+}
+.total{
+    display: flex;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.numere {
+    margin-left: 40px;
+}
+nav{
+    
+   
+    width: auto;
+    padding-top: 10px;
+    
+  }
+  nav ul{
+  text-align: right;
+  }
+  
+  nav li {
+    border: groove white;
+    display: inline;
+    
+    padding: 15px 30px;
+    font-size: 25px;
+    
+  
+   
+  }
+  
+  nav a{
+    
+    color:white;
+    text-decoration-line: none;
+    
+  
+  }
+  nav a:hover{
+    color : black;
+  
+  }
+  
+  .redirect{
+    margin-top: 60px;
+  font-size: 30px;
+  text-align: center;
+  }
+  .redirect a {
+    color: white;
+    text-decoration-line:none ;
+    border-width: auto;
+    border: groove white;
+    padding: 20px;
+  
+    
+  }

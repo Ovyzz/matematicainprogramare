@@ -1,0 +1,134 @@
+.list {
+ 
+   list-style-type: none; 
+ 
+ 
+   width: 210px;
+   height: 670px;
+   font-size: 30px;
+   margin-top: 110px;
+   text-align: center;
+ 
+ }
+ 
+ a {
+   color: white;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-decoration-line: none;
+ 
+ }
+ a:hover{
+   color:black;
+ 
+ }
+ 
+ .titlu{
+   background: tomato;
+   color: white;
+   width: auto;
+   height: auto;
+   text-align: center;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .x{
+   width: 400px;
+   height: 550px;
+   background-color: rgba(0, 0, 0, 0.75);
+   opacity: 70%;
+   margin: auto;
+ 
+ }
+ .total{
+   display: flex;
+ }
+ 
+ html{
+   padding:0px;
+   margin:0px;
+   font-family: 'Raleway', sans-serif;
+   color:#FFF;
+   height:1000px%;
+ }
+ body {
+ background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+ background-size: 400% 400%;
+ animation: gradient 10s ease infinite;
+ }
+ 
+ @keyframes gradient {
+ 0% {
+   background-position: 0% 50%;
+ }
+ 50% {
+   background-position: 100% 50%;
+ }
+ 100% {
+   background-position: 0% 50%;
+ }
+ }
+ 
+ .container{
+   max-width:200px;
+   background:rgba(0, 0, 0, 0.75);
+   opacity: 70%;
+   padding:10px 0px 20px 0px;
+   border:1px solid #111;
+   border-radius:4px;
+   box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+   margin-left: 100 px;
+   height: 600px;
+ }
+ .link{
+   font-size:16px;
+   font-weight:300;
+   text-align:center;
+   position:relative;
+   height:40px;
+   line-height:40px;
+   margin-top:10px;
+   overflow:hidden;
+   width:90%;
+   margin-left:5%;
+   cursor:pointer;
+   font-size: 20;
+   padding-top: 20px;
+ 
+ }
+ .link:after{
+   content: '';
+   position:absolute;
+   width:80%;
+   border-bottom:1px solid rgba(255, 255, 255, 0.5);
+   bottom:50%;
+   left:-100%;
+   transition-delay: all 0.5s;
+   transition: all 0.5s;
+ 
+ }
+ .link:hover:after,
+ .link.hover:after{
+   left:100%;
+ }
+ .link .text{
+   text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+   transition:all 0.75s;
+   transform:translateY(100%) translateZ(0);
+   transition-delay:all 0.25s;
+ }
+ .link:hover .text,
+ .link.hover .text{
+   text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+   transform:translateY(0%) translateZ(0) scale(1.1);
+   font-weight:600;
+ }
+ .inputuri{
+   width: 30%;
+     padding: 15px 22px;
+     margin: 10px 5px;
+     box-sizing: border-box; 
+     border: 4px solid #8842d5;
+     border-radius: 5px;  
+ }
+ .numere{
+  text-align: center;
+ }

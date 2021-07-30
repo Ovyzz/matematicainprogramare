@@ -1,0 +1,75 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+nav{
+    
+   
+  width: auto;
+  padding-top: 10px;
+  
+}
+nav ul{
+text-align: right;
+}
+
+nav li {
+  border: groove white;
+  display: inline;
+  
+  padding: 15px 30px;
+  font-size: 25px;
+  
+
+ 
+}
+
+nav a{
+  
+  color:white;
+  text-decoration-line: none;
+  
+
+}
+nav a:hover{
+  color : black;
+
+}
+
+.redirect{
+  margin-top: 60px;
+font-size: 30px;
+text-align: center;
+}
+.redirect a {
+  color: white;
+  text-decoration-line:none ;
+  border-width: auto;
+  border: groove white;
+  padding: 20px;
+
+  
+}
+
+ 
+  display: flexbox;
+  
+ 
+}
+nav a :active {
+  color: black;
+}
+
